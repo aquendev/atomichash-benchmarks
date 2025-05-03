@@ -1,7 +1,7 @@
 /*
  * =========================================================================
  *
- *   Copyright (c) 2019-2025 Aquen (https://aquen.io)
+ *   Copyright (c) 2019-2025 Arxila OSS (https://arxila.io)
  *
  *   Licensed under the Apache License, Version 2.0 (the "License");
  *   you may not use this file except in compliance with the License.
@@ -17,12 +17,12 @@
  *
  * =========================================================================
  */
-package io.aquen.atomichash.benchmarks.benchmark00;
+package io.arxila.atomichash.benchmarks.benchmark00;
 
 
-import io.aquen.atomichash.AtomicHashStore;
-import io.aquen.atomichash.benchmarks.utils.KeyValue;
-import io.aquen.atomichash.benchmarks.utils.TestUtils;
+import io.arxila.atomichash.AtomicHashStore;
+import io.arxila.atomichash.benchmarks.utils.KeyValue;
+import io.arxila.atomichash.benchmarks.utils.TestUtils;
 import java.util.HashMap;
 import java.util.Map;
 

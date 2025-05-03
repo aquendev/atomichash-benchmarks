@@ -1,7 +1,7 @@
 /*
  * =========================================================================
  *
- *   Copyright (c) 2019-2025 Aquen (https://aquen.io)
+ *   Copyright (c) 2019-2025 Arxila OSS (https://arxila.io)
  *
  *   Licensed under the Apache License, Version 2.0 (the "License");
  *   you may not use this file except in compliance with the License.
@@ -17,7 +17,7 @@
  *
  * =========================================================================
  */
-package io.aquen.atomichash.benchmarks;
+package io.arxila.atomichash.benchmarks;
 
 
 import java.util.Collections;
@@ -28,8 +28,8 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.TimeUnit;
 import java.util.function.Supplier;
 
-import io.aquen.atomichash.AtomicHashMap;
-import io.aquen.atomichash.benchmarks.utils.BenchmarkMappings;
+import io.arxila.atomichash.AtomicHashMap;
+import io.arxila.atomichash.benchmarks.utils.BenchmarkMappings;
 import org.openjdk.jmh.annotations.Benchmark;
 import org.openjdk.jmh.annotations.BenchmarkMode;
 import org.openjdk.jmh.annotations.Fork;

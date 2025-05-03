@@ -3,7 +3,7 @@
 <!--
   ~ =============================================================================
   ~
-  ~   Copyright (c) 2019-2025 Aquen (https://aquen.io)
+  ~   Copyright (c) 2019-2025 Arxila OSS (https://arxila.io)
   ~
   ~   Licensed under the Apache License, Version 2.0 (the "License");
   ~   you may not use this file except in compliance with the License.
@@ -27,12 +27,12 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>io.aquen</groupId>
-    <artifactId>aquen-parent</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <groupId>io.arxila</groupId>
+    <artifactId>arxila-parent</artifactId>
+    <version>1.0.0</version>
   </parent>
 
-  <groupId>io.aquen.atomichash</groupId>
+  <groupId>io.arxila.atomichash</groupId>
   <artifactId>atomichash-benchmarks</artifactId>
   <packaging>jar</packaging>
   <version>ci</version>
@@ -40,8 +40,8 @@
   <description>Benchmarks for AtomicHash</description>
 
   <scm>
-    <url>https://github.com/aquendev/atomichash</url>
-    <developerConnection>scm:git:git@github.com:aquendev/atomichash</developerConnection>
+    <url>https://github.com/arxila/atomichash</url>
+    <developerConnection>scm:git:git@github.com:arxila/atomichash</developerConnection>
   </scm>
 
   <distributionManagement>
@@ -82,7 +82,7 @@
     <!-- ======================     -->
     <!-- MODULE configuration       -->
     <!-- ======================     -->
-    <module.name>aquen.atomichash.benchmarks</module.name>
+    <module.name>arxila.atomichash.benchmarks</module.name>
     <!-- =========================  -->
     <!-- Configure JavaDoc plugin   -->
     <!-- (Avoids JPMS issues.)      -->
@@ -198,7 +198,7 @@
               <X-Compile-Source-JDK>${maven.compiler.source}</X-Compile-Source-JDK>
               <X-Compile-Target-JDK>${maven.compiler.target}</X-Compile-Target-JDK>
               <!-- Set the Built-By attribute to avoid displaying specific usernames.         -->
-              <Built-By>aquen</Built-By>
+              <Built-By>arxila</Built-By>
               <!-- Setting this automatic module name will fix the module name used by        -->
               <!-- atomichash even if the library is not yet fully modularised.                -->
               <Automatic-Module-Name>${module.name}</Automatic-Module-Name>
@@ -234,7 +234,7 @@
               <goal>sign</goal>
             </goals>
             <configuration>
-              <keyname>releases@aquen.io</keyname>
+              <keyname>releases@arxila.io</keyname>
             </configuration>
           </execution>
         </executions>
@@ -301,7 +301,7 @@
   <dependencies>
 
     <dependency>
-      <groupId>io.aquen.atomichash</groupId>
+      <groupId>io.arxila.atomichash</groupId>
       <artifactId>atomichash</artifactId>
       <version>${atomichash.version}</version>
     </dependency>

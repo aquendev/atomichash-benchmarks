@@ -1,7 +1,7 @@
 /*
  * =========================================================================
  *
- *   Copyright (c) 2019-2025 Aquen (https://aquen.io)
+ *   Copyright (c) 2019-2025 Arxila OSS (https://arxila.io)
  *
  *   Licensed under the Apache License, Version 2.0 (the "License");
  *   you may not use this file except in compliance with the License.
@@ -17,11 +17,11 @@
  *
  * =========================================================================
  */
-package io.aquen.atomichash.benchmarks;
+package io.arxila.atomichash.benchmarks;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import io.aquen.atomichash.benchmarks.utils.KeyValue;
+import io.arxila.atomichash.benchmarks.utils.KeyValue;
 
 public class Threads1ExpectedOutputTest {
 

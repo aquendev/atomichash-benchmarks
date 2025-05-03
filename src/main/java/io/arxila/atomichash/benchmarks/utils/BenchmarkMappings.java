@@ -1,7 +1,7 @@
 /*
  * =========================================================================
  *
- *   Copyright (c) 2019-2025 Aquen (https://aquen.io)
+ *   Copyright (c) 2019-2025 Arxila OSS (https://arxila.io)
  *
  *   Licensed under the Apache License, Version 2.0 (the "License");
  *   you may not use this file except in compliance with the License.
@@ -17,7 +17,7 @@
  *
  * =========================================================================
  */
-package io.aquen.atomichash.benchmarks.utils;
+package io.arxila.atomichash.benchmarks.utils;
 
 import java.io.IOException;
 import java.util.Arrays;
@@ -25,8 +25,6 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Properties;
 import java.util.Set;
-import java.util.concurrent.atomic.AtomicInteger;
-import java.util.concurrent.atomic.AtomicLong;
 import java.util.stream.Collectors;
 
 public final class BenchmarkMappings {
