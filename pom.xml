@@ -92,7 +92,7 @@
     <!-- ======================     -->
     <!-- DEPENDENCY versions        -->
     <!-- ======================     -->
-    <atomichash.version>1.0.1-SNAPSHOT</atomichash.version>
+    <atomichash.version>1.0.2-SNAPSHOT</atomichash.version>
     <commons-lang3.version>3.17.0</commons-lang3.version>
     <junit.version>5.11.3</junit.version>
     <jmh.version>1.37</jmh.version>
